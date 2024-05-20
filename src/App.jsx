@@ -6,7 +6,7 @@ const App = () => {
   let gender = 'male'
  
   return (
-    <div className='px-'>
+    <div>
       <ReactHooks/>
       <Mapping/>
       {/* <Google/> */}
