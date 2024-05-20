@@ -7,10 +7,6 @@ const App = () => {
  
   return (
     <div className='px-'>
-      <div className={gender=='male'? "text-green-500":'text-violet-900'}>
-        App
-       
-      </div>
       <ReactHooks/>
       <Mapping/>
       {/* <Google/> */}
