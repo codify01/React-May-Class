@@ -9,7 +9,6 @@ const App = () => {
     <div>
       <ReactHooks/>
       <Mapping/>
-      {/* <Google/> */}
     </div>
   )
 }
