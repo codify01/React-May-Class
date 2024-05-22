@@ -42,8 +42,14 @@ const Input = () => {
         >Change name</button>
 
         <div>
+            <div className='flex justify-between my-3 px-3 py-2 shadow-lg rounded'>
+                <p>First Name</p>
+                <p>Last Name</p>
+                <p>User Name</p>
+                <p>Password</p>
+            </div>
             {user.map((res, index)=>(
-                <div className='flex justify-between my-3 bg-violet-300 py-2 px-3 rounded' key={index}>
+                <div className='flex justify-between my-3 py-2 px-3 rounded even:bg-violet-300 odd:bg-orange-300' key={index}>
                     <p>{res.firstname}</p>
                     <p>{res.lastname}</p>
                     <p>{res.username}</p>
