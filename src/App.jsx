@@ -4,6 +4,7 @@ import ReactHooks from './components/ReactHooks'
 import Mapping from './components/Mapping'
 import Signin from './components/Signin'
 import Input from './components/Input'
+import Api from './components/Api'
 const App = () => {
   return (
     <div>
@@ -11,6 +12,7 @@ const App = () => {
       <Mapping/>
       {/* <Signin/> */}
       <Input/>
+      <Api/>
     </div>
   )
 }
